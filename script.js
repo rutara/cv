@@ -8,7 +8,7 @@ $(".amount").each(function () {
     currentAmount = 0,
     param = $(this).attr("amount"),
     color = $(this).attr("color");
-    el.css("background-color",color);
+    //el.css("background-color",color);
        // el.css("width", param+"%");
         var id = setInterval(frame, 10);
     console.log(param);

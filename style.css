@@ -45,11 +45,17 @@ img {
     display: block;
 }
 
+hr {
+    border-top: 1px solid white;
+    ;
+}
+
 .inline {
     display: inline-block;
     width: 45%;
     vertical-align: top;
     padding: 10px;
+    /* background-color: white; */
 }
 
 .bar {
@@ -59,14 +65,15 @@ img {
     border-radius: 7px;
     padding: 4px;
     display: inline-block;
-    margin: 15px;
-    right:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
 }
 
 .amount {
     height: 100%;
     vertical-align: center;
-    background-color: rgb(17, 83, 141);
+    background-color: #21284E;
     border-radius: 5px;
 }
 
@@ -77,13 +84,25 @@ img {
     margin: 10px;
 }
 
-span {
+.inline span {
     display: inline-block;
     vertical-align: middle;
+    width: 20px;
+    font-weight:bold;
 }
 
 .centered {
     display: flex;
     align-items: center;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 120%;
+    font-weight: 400;
+    color: #B6CCE3;
 }
